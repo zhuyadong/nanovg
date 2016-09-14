@@ -1155,7 +1155,7 @@ static GLNVGblend glnvg__blendCompositeOperation(NVGcompositeOperationState op)
 		blend.dstRGB = GL_ONE_MINUS_SRC_ALPHA;
 		blend.srcAlpha = GL_ONE;
 		blend.dstAlpha = GL_ONE_MINUS_SRC_ALPHA;
-    }
+	}
 	return blend;
 }
 
